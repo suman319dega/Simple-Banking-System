@@ -1,0 +1,199 @@
+{
+    "users": {
+        "3f679e1a-1212-44c0-9eb2-c2ae2894efdc": {
+            "id": "3f679e1a-1212-44c0-9eb2-c2ae2894efdc",
+            "username": "demo_user",
+            "pin": "0000",
+            "account": {
+                "id": "e2048a2f-7aeb-452b-bb3d-93786fee694d",
+                "balance": 11400,
+                "transactions": [
+                    {
+                        "id": "79d9ad1f-f5d5-4b5a-ba80-24bddaaccd07",
+                        "type": "deposit",
+                        "amount": 5000,
+                        "timestamp": "2025-12-15T03:31:45.932751Z",
+                        "description": "Initial demo deposit"
+                    },
+                    {
+                        "id": "2c8fd6c8-8566-4db4-b6e1-465750fd161b",
+                        "type": "withdraw",
+                        "amount": 1200,
+                        "timestamp": "2025-12-15T03:31:45.933746Z",
+                        "description": "ATM withdrawal"
+                    },
+                    {
+                        "id": "89c07807-25f9-407f-8716-9f805f86ced0",
+                        "type": "deposit",
+                        "amount": 5000,
+                        "timestamp": "2025-12-15T03:33:33.931649Z",
+                        "description": "Initial demo deposit"
+                    },
+                    {
+                        "id": "e973a13c-56bc-4315-a471-25dffd6e9e89",
+                        "type": "withdraw",
+                        "amount": 1200,
+                        "timestamp": "2025-12-15T03:33:33.934649Z",
+                        "description": "ATM withdrawal"
+                    },
+                    {
+                        "id": "05d3d3ee-b0b6-4117-a0b7-00966ea8936f",
+                        "type": "deposit",
+                        "amount": 5000,
+                        "timestamp": "2025-12-15T03:34:59.646631Z",
+                        "description": "Initial demo deposit"
+                    },
+                    {
+                        "id": "cda69920-e0e5-401e-8e18-7327c60eb189",
+                        "type": "withdraw",
+                        "amount": 1200,
+                        "timestamp": "2025-12-15T03:34:59.648642Z",
+                        "description": "ATM withdrawal"
+                    }
+                ]
+            }
+        },
+        "eb6066d4-551f-40bc-81a3-0d61d2ec097a": {
+            "id": "eb6066d4-551f-40bc-81a3-0d61d2ec097a",
+            "name": "Demo User",
+            "account_number": "1375840963",
+            "pin_hash": "5a4ddd9a15b1ebd5a63b8e686914f80256ea8546182893a1a0d9ce7d1f03c84b",
+            "pin_salt": "a43b4022a7d4e34aa16b45ca2a88fb0a",
+            "failed_attempts": 0,
+            "locked": false,
+            "locked_at": null,
+            "frozen": false,
+            "account": {
+                "id": "6c3e4dc5-2f0e-464b-8909-dd98337e7c97",
+                "balance": 0,
+                "transactions": [],
+                "account_number": "1375840963"
+            }
+        },
+        "3858db30-42ae-4a4c-ac11-3e6eda97be25": {
+            "id": "3858db30-42ae-4a4c-ac11-3e6eda97be25",
+            "name": "Demo User",
+            "account_number": "8175776515",
+            "pin_hash": "fddfca5392b8ae84250b1c617df43828217c2c76d5dd625ae3d0c7af86bfb7e1",
+            "pin_salt": "cc210270aa1c945b7c616e19fa93daac",
+            "failed_attempts": 0,
+            "locked": false,
+            "locked_at": null,
+            "frozen": false,
+            "account": {
+                "id": "f8cc4d07-3e7b-49f5-bf90-0018544f53d6",
+                "balance": 0,
+                "transactions": [],
+                "account_number": "8175776515"
+            }
+        },
+        "b2f0f8c6-0928-4e42-a88f-37f74d13a108": {
+            "id": "b2f0f8c6-0928-4e42-a88f-37f74d13a108",
+            "name": "Demo User",
+            "account_number": "6635061067",
+            "pin_hash": "eaace88d07a4cc07b76719030f9a4ba0f07c535f4272489914188000c199eec1",
+            "pin_salt": "12cf0fe67fee0f4b388d14eb2f626d51",
+            "failed_attempts": 0,
+            "locked": false,
+            "locked_at": null,
+            "frozen": false,
+            "account": {
+                "id": "2f7d81c4-7f3d-4232-a07f-ddeec9db1377",
+                "balance": 3800,
+                "transactions": [
+                    {
+                        "id": "3c80f80f-9a52-461f-a753-33d600560eed",
+                        "type": "deposit",
+                        "amount": 5000,
+                        "timestamp": "2025-12-15T03:40:28.063155Z",
+                        "description": "Initial demo deposit"
+                    },
+                    {
+                        "id": "b21a492a-355e-4cd3-8b7a-978ec6d6ac28",
+                        "type": "withdraw",
+                        "amount": 1200,
+                        "timestamp": "2025-12-15T03:40:28.064167Z",
+                        "description": "ATM withdrawal"
+                    }
+                ],
+                "account_number": "6635061067"
+            }
+        },
+        "77f9dec3-62ee-4c39-8a26-8ec28376a9c3": {
+            "id": "77f9dec3-62ee-4c39-8a26-8ec28376a9c3",
+            "name": "Demo User",
+            "account_number": "4187520054",
+            "pin_hash": "f267040ff63f2cd8c861fd077a1178912f128e47ae98ee795e466fcb0546dae0",
+            "pin_salt": "c6a087d8ff9eb42126ca2ce54d4ccf07",
+            "failed_attempts": 0,
+            "locked": false,
+            "locked_at": null,
+            "frozen": false,
+            "account": {
+                "id": "ce4e6380-388b-4903-8af1-9c2d1745a42b",
+                "balance": 3800,
+                "transactions": [
+                    {
+                        "id": "a082adf6-7cde-4b8c-9952-047e7fb7ee2d",
+                        "type": "deposit",
+                        "amount": 5000,
+                        "timestamp": "2025-12-15T03:49:11.648662Z",
+                        "description": "Initial demo deposit"
+                    },
+                    {
+                        "id": "5a017348-cb32-420b-863c-c9e022c178ca",
+                        "type": "withdraw",
+                        "amount": 1200,
+                        "timestamp": "2025-12-15T03:49:11.650565Z",
+                        "description": "ATM withdrawal"
+                    }
+                ],
+                "account_number": "4187520054"
+            }
+        },
+        "7dec565f-f794-4213-a1f5-005a24b4598e": {
+            "id": "7dec565f-f794-4213-a1f5-005a24b4598e",
+            "name": "D Hari",
+            "account_number": "5504217493",
+            "pin_hash": "50368d18fd70390c01691f645e7f90a287488ab54330f3213202401fc07512da",
+            "pin_salt": "739a722b294358b0a34d86cd19886f0e",
+            "failed_attempts": 0,
+            "locked": false,
+            "locked_at": null,
+            "frozen": false,
+            "account": {
+                "id": "9627bfd5-2aee-4c7d-a123-b85b3977693e",
+                "balance": 15000,
+                "transactions": [
+                    {
+                        "id": "944fff38-a456-4271-8582-ae2fbf2f3370",
+                        "type": "deposit",
+                        "amount": 10000,
+                        "timestamp": "2025-12-15T03:51:04.584600Z",
+                        "description": ""
+                    },
+                    {
+                        "id": "6f1856a0-54c7-4866-8215-787ca964d3c8",
+                        "type": "deposit",
+                        "amount": 5000,
+                        "timestamp": "2025-12-15T03:53:18.858498Z",
+                        "description": ""
+                    }
+                ],
+                "account_number": "5504217493"
+            }
+        }
+    },
+    "admin": {
+        "salt": "846b8801cc4be5b322162c4e2508def3",
+        "hash": "b39bacd8b6898896d309c93a3ff7a151884a51f309723261138d9f950621ce1e"
+    },
+    "37312373": {
+        "name": "Dega Sumanth",
+        "pin": "9397",
+        "balance": 500000.0,
+        "transactions": [
+            "15-12-2025 09:27:35 | Deposited \u20b9500000.0"
+        ]
+    }
+}
